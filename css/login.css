@@ -1,0 +1,89 @@
+* {
+	box-sizing: border-box;
+    margin: 0;
+    border: 0;
+	padding: 0;
+}
+body {
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 16px;
+	color: #fff;	
+	background-image: url("../images/pexels-eberhard-grossgasteiger-1301976.jpg");
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	position: fixed;
+	
+}
+.form-box {
+	background-color: rgba(0, 0, 0, 0.5 );
+
+	margin: auto auto;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px #000000;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 430px;
+	height: 450px;
+}
+.form-box .header-text {
+	font-size: 32px;
+	font-weight: 600;
+	padding-bottom: 30px;
+	text-align: center;
+}
+.form-box input {
+	margin: 10px 0px;
+	padding: 10px;
+	border-radius: 5px;
+	width: 100%;
+	font-size: 18px;
+	font-family: poppins;
+}
+	
+	.check{
+	
+		color: #ffffff;
+	    font-size: 15px;
+		font-weight: 500;
+	  
+	    display: flex;
+		justify-content: space-between;
+	   } 
+	   .check a{
+		color: #ffffff;
+		padding-top: 20px;
+		text-decoration: none; 
+	   }
+	   
+  .check a:hover{
+	text-decoration: underline;
+   }
+.form-box label {
+	margin-left: -150px;
+margin-top: 20px;
+}
+
+
+.form-box .old {
+	width: 17px;
+	height: 17px;
+	margin-top: 20px;
+	
+}
+
+.form-box .button {
+	background-color: deepskyblue;
+	color: #fff;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 100%;
+	font-size: 20px;
+	font-weight: 700;
+	padding: 10px;
+	margin-top: 15px;
+}
